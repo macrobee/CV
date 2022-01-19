@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Contact me</title>
+</head>
+<body>
+  <h1>Contact me</h1>
+  <p>Newcastle, ON</p>
+  <p>999-999-9999</p>
+  <p>vivspambot@gmail.com</p>
+  <hr>
+
+  <form action="mailto:vivspambot@gmail.com" method="post" enctype="text/plain">
+    <label for="name">Your name: </label>
+    <input type="text" id="name"><br />
+    <label for="email">Your email: </label>
+    <input type="email" id="email"><br>
+    <label for="photo">Please upload a photo of yourself: </label><br>
+    <input type="file" id="photo" name="user" accept="image/png, image/jpeg"><br />
+    <label for="date">Please select today's date: </label>
+    <input type="date" id="date" name="today" value="2022-01-19" min="2000-01-01" max="2024-01-01"><br>
+    <label for="feels">How are you feeling today? </label><br>
+    <input type="range" id="feels" min="0" max="100"><br>
+    <label for="extra_info">Anything else you'd like to add? </label><br>
+    <textarea id="extra_info" name="info" rows="10" columns="40" placeholder="Add info here"></textarea><br>
+    <input type="submit">
+  </form>
+</body>
+</html>
