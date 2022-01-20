@@ -1,0 +1,23 @@
+hr{
+border-style: none;
+border-top-style: dotted;
+align-self: left;
+border-width: 5px;
+size: 20px;
+height: 0px;
+border-color: #5354DD;
+width: 5%;
+}
+
+body{
+    background-color: #A2E3DD;
+}
+h1{
+    color: #35524A;
+}
+h3{
+    color:#627C85;
+}
+a{
+    color:##32DE8A;
+}
