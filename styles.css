@@ -1,23 +1,116 @@
-hr{
-border-style: none;
-border-top-style: dotted;
-align-self: left;
-border-width: 5px;
-size: 20px;
-height: 0px;
-border-color: #5354DD;
-width: 5%;
-}
-
 body{
-    background-color: #A2E3DD;
+    margin: 0;
+    text-align: center;
+    font-family: 'Caveat', sans-serif;
+}
+span{
+    text-decoration: underline wavy rgb(53, 53, 204);
+}
+h1, h2{
+    color: #66BFBF;
+}
+h3, a{
+    color: #226769;
 }
 h1{
-    color: #35524A;
+    font-family: 'Dancing Script', Impact, serif;
+    font-size: 5rem;
+    position: relative;
+    margin: 0, auto;
+    line-height: 2;
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: normal;
 }
 h3{
-    color:#627C85;
+    font-size:2rem;
 }
-a{
-    color:##32DE8A;
+hr{
+    width:10%;
+    height: 0;
+    border-top: 5px dotted #d0dbdb;
+    border-bottom: none;
+    border-left: none;
+}
+.top-container{
+    position: relative;
+    background-color: #EAF6F6;
+    padding-top:100px;
+    margin:0;
+}
+.first-cloud{
+    position: absolute;
+    right: 25%;
+    top: 40%;
+}
+.second-cloud{
+    position: absolute;
+    left: 20%;
+}
+p{
+    font-size: 1em;
+    font-family:Tahoma;
+    color: #40514E;
+    margin-bottom: 30px;
+}
+.middle-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 30px 0;
+}
+.profile{
+    border-radius:50%;
+}
+.skill-row{
+    width: 50%;
+    margin: 50px auto;
+    text-align: left;
+    line-height: 2;
+    
+}
+.computer{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    border-radius:50%;
+}
+.chilli{
+    width:25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.computer-text, .chilli-text{
+    color: #11999E;
+}
+.footer-link{
+    color: #11999E;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+    font-size: 1.5rem;
+    transition: 0.5s;
+}
+
+.btn{
+    color: #EAF6F6;
+    padding: 10px 20px;
+    border-radius:50px;
+    background-color: #11999E;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: #3b7272;
+    background-color: #94e0e0;
+}
+.footer-link:hover{
+    color: #d6fdff;
+}
+.bottom-text{
+    color: #EAF6F6;
+    font-family: 'Caveat';
 }
